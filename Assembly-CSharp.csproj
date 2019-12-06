@@ -53,15 +53,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GameEnd.cs" />
-     <Compile Include="Assets\LevelTrigger.cs" />
-     <Compile Include="Assets\ObjectScore.cs" />
-     <Compile Include="Assets\Obstacle.cs" />
+     <Compile Include="Assets\Scripts\collectableVanish.cs" />
+     <Compile Include="Assets\Scripts\cubeCollisionFloor.cs" />
      <Compile Include="Assets\Scripts\follow.cs" />
+     <Compile Include="Assets\Scripts\followMainCube.cs" />
      <Compile Include="Assets\Scripts\followObject.cs" />
+     <Compile Include="Assets\Scripts\GameEnd.cs" />
+     <Compile Include="Assets\Scripts\GameMaster.cs" />
+     <Compile Include="Assets\Scripts\LevelTrigger.cs" />
+     <Compile Include="Assets\Scripts\MainCube.cs" />
+     <Compile Include="Assets\Scripts\movementMainCube.cs" />
      <Compile Include="Assets\Scripts\objectMovement.cs" />
+     <Compile Include="Assets\Scripts\ObjectScore.cs" />
+     <Compile Include="Assets\Scripts\Obstacle.cs" />
      <Compile Include="Assets\Scripts\obstacleCollisions.cs" />
+     <Compile Include="Assets\Scripts\roadblockCollision.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\Scripts\scoringText.cs" />
      <Compile Include="Assets\Scripts\script.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/home/hitwicket3/NewTest/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

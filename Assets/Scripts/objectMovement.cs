@@ -18,7 +18,7 @@ public class objectMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.A))
         {
             Debug.Log("A pressed");
-            rb.AddForce(0, 0, side_force * Time.deltaTime);
+            rb.AddForce(0, 0, side_force * Time.deltaTime );
         }
         else if (Input.GetKey(KeyCode.D))
         {

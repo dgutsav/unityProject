@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Obstacle1
+  - Roadblocks
+  - Collectables
   layers:
   - Default
   - TransparentFX
